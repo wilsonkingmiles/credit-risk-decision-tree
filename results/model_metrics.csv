@@ -1,0 +1,3 @@
+model,accuracy,precision_bad,recall_bad,f1_bad,macro_f1,roc_auc_bad,false_good_as_bad,false_bad_as_good,cost_sensitive_error,tree_depth,number_of_leaves
+Baseline unpruned tree,0.647,0.392,0.322,0.354,0.555,0.554,45,61,350,17,137
+Tuned/pruned tree,0.657,0.45,0.644,0.53,0.63,0.724,71,32,231,6,11
