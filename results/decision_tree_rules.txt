@@ -1,0 +1,31 @@
+|--- cat__checking_status_no checking <= 0.50
+|   |--- num__duration <= 11.50
+|   |   |--- class: good
+|   |--- num__duration >  11.50
+|   |   |--- cat__other_parties_guarantor <= 0.50
+|   |   |   |--- cat__savings_status_<100 <= 0.50
+|   |   |   |   |--- num__credit_amount <= 1381.50
+|   |   |   |   |   |--- class: bad
+|   |   |   |   |--- num__credit_amount >  1381.50
+|   |   |   |   |   |--- num__duration <= 31.50
+|   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |--- num__duration >  31.50
+|   |   |   |   |   |   |--- class: bad
+|   |   |--- cat__savings_status_<100 >  0.50
+|   |   |   |--- num__duration <= 47.50
+|   |   |   |   |--- cat__purpose_used car <= 0.50
+|   |   |   |   |   |--- class: bad
+|   |   |   |   |--- cat__purpose_used car >  0.50
+|   |   |   |   |   |--- class: good
+|   |   |   |--- num__duration >  47.50
+|   |   |   |   |--- class: bad
+|   |   |--- cat__other_parties_guarantor >  0.50
+|   |   |   |--- class: good
+|--- cat__checking_status_no checking >  0.50
+|   |--- cat__other_payment_plans_none <= 0.50
+|   |   |--- class: bad
+|   |--- cat__other_payment_plans_none >  0.50
+|   |   |--- num__age <= 32.50
+|   |   |   |--- class: good
+|   |   |--- num__age >  32.50
+|   |   |   |--- class: good
