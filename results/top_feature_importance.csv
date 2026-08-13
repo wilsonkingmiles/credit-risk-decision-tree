@@ -1,0 +1,21 @@
+,importance
+cat__checking_status_no checking,0.4565761206611456
+num__duration,0.1983397144274489
+cat__other_payment_plans_none,0.08190775523404403
+cat__savings_status_<100,0.057152063031695365
+cat__other_parties_guarantor,0.05597000804314921
+cat__purpose_used car,0.0548913011832313
+num__credit_amount,0.054405495285373404
+num__age,0.04075754213391216
+cat__credit_history_existing paid,0.0
+cat__credit_history_critical/other existing credit,0.0
+cat__credit_history_delayed previously,0.0
+cat__checking_status_0<=X<200,0.0
+cat__checking_status_<0,0.0
+cat__purpose_furniture/equipment,0.0
+cat__purpose_education,0.0
+cat__purpose_radio/tv,0.0
+cat__purpose_new car,0.0
+cat__purpose_repairs,0.0
+cat__purpose_retraining,0.0
+cat__savings_status_100<=X<500,0.0
